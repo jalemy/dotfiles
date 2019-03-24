@@ -30,6 +30,7 @@
     "editor.renderControlCharacters": true, // 制御文字が表示されるように設定
     "editor.smoothScrolling": true, // スクロールが滑らかになるように設定
     "editor.snippetSuggestions": "bottom", // コードスニペットを下に表示するように設定
+    "editor.reanderIndentGuide": true, // インデントガイドを引くように設定
     // VSCode "workbench"接頭辞の設定を列挙
     "workbench.commandPalette.preserveInput": true, // Command Paletteを開いた際に、最後に実行した入力履歴を表示するように設定
     // VSCode "window"接頭辞の設定を列挙
