@@ -15,9 +15,7 @@
     /*
      * VSCode "editor"接頭辞の設定を列挙
      */
-    "editor.fontFamily": [ // VSCodeで利用するフォントを設定
-        "Source Code Pro"
-    ],
+    "editor.fontFamily": "Source Code Pro", // VSCodeで利用するフォントを設定
     "editor.renderWhitespace": "boundary", // 空白文字を単語間は表示しない、それ以外は表示するように設定
     "editor.formatOnSave": true, // ファイル保存時に、自動的に整形フォーマットするように設定
     "editor.formatOnPaste": true, // ペースト時に、自動的に整形フォーマットするように設定
@@ -34,12 +32,10 @@
     "editor.renderControlCharacters": true, // 制御文字が表示されるように設定
     "editor.smoothScrolling": true, // スクロールが滑らかになるように設定
     "editor.snippetSuggestions": "bottom", // コードスニペットを下に表示するように設定
-    "editor.reanderIndentGuide": true,
     /*
      * VSCode "terminal"接頭辞の設定を列挙
      */
     "terminal.integrated.fontFamily": "monospace", // terminalのfontをmonospaceに設定(monospace以外受け付けてくれなかったのでとりあえず)
-    "terminal.integrated.FontSize": 0, // fontSizeをeditorのfontSizeに準拠するように設定
     /*
      * VSCode "breadcrumbs"接頭辞の設定を列挙
      */
@@ -53,7 +49,7 @@
     /*
      * VSCode "window"接頭辞の設定を列挙
      */
-    "window.openFilesInNewWindow": "true", // ファイルを開く時に、新しくウインドウを開くように設定
+    "window.openFilesInNewWindow": "on", // ファイルを開く時に、新しくウインドウを開くように設定
     "window.zoomLevel": 0, // デフォルトの画面ズームをLv.0に設定
     /*
      * html形式に関する設定を列挙
