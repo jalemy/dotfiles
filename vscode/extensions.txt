@@ -1,1 +1,10 @@
+codezombiech.gitignore
+donjayamanne.githistory
+eamodio.gitlens
+GitHub.vscode-pull-request-github
 ICS.japanese-proofreading
+ionutvmi.path-autocomplete
+MS-CEINTL.vscode-language-pack-ja
+ms-python.python
+rogalmic.bash-debug
+vscode-icons-team.vscode-icons
