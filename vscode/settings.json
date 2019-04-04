@@ -2,7 +2,9 @@
     /*
      * MacBook Pro用に設定
      */
-    // VSCode "files"接頭辞の設定を列挙
+    /*
+     * VSCode "files"接頭辞の設定を列挙
+     */
     "files.encoding": "utf8", // 文字コードをutf-8に設定
     "files.autoGuessEncoding": true, // utf-8以外の文字コードを開いた場合、自動で追従してファイルを開くように設定
     "files.autoSave": "afterDelay", // 一定時間操作がなかったら自動保存するように設定
@@ -10,7 +12,9 @@
     "files.trimTrailingWhitespace": true, // ファイル保存時に、行末の空白をトリミングするように設定
     "files.insertFinalNewline": true, // ファイル保存時に、最終行に空白行を入れるように設定
     "files.hotExit": "onExitAndWindowClose", // エディタ終了、およびウインドウを閉じた際にファイル保存するように設定
-    // VSCode "editor"接頭辞の設定を列挙
+    /*
+     * VSCode "editor"接頭辞の設定を列挙
+     */
     "editor.fontFamily": [ // VSCodeで利用するフォントを設定
         "Source Code Pro"
     ],
@@ -30,16 +34,39 @@
     "editor.renderControlCharacters": true, // 制御文字が表示されるように設定
     "editor.smoothScrolling": true, // スクロールが滑らかになるように設定
     "editor.snippetSuggestions": "bottom", // コードスニペットを下に表示するように設定
-    "editor.reanderIndentGuide": true, // インデントガイドを引くように設定
-    // VSCode "workbench"接頭辞の設定を列挙
+    "editor.reanderIndentGuide": true,
+    /*
+     * VSCode "terminal"接頭辞の設定を列挙
+     */
+    "terminal.integrated.fontFamily": "monospace", // terminalのfontをmonospaceに設定(monospace以外受け付けてくれなかったのでとりあえず)
+    "terminal.integrated.FontSize": 0, // fontSizeをeditorのfontSizeに準拠するように設定
+    /*
+     * VSCode "breadcrumbs"接頭辞の設定を列挙
+     */
+    "breadcrumbs.enabled": true, // 階層リンクの表示を行うように設定
+    "breadcrumbs.filePath": "on", // ファイルパスをフルで表示するように設定
+    "breadcrumbs.symbolPath": "on", // シンボルパスをフルで表示するように設定
+    /*
+     * VSCode "workbench"接頭辞の設定を列挙
+     */
     "workbench.commandPalette.preserveInput": true, // Command Paletteを開いた際に、最後に実行した入力履歴を表示するように設定
-    // VSCode "window"接頭辞の設定を列挙
+    /*
+     * VSCode "window"接頭辞の設定を列挙
+     */
     "window.openFilesInNewWindow": "true", // ファイルを開く時に、新しくウインドウを開くように設定
     "window.zoomLevel": 0, // デフォルトの画面ズームをLv.0に設定
-    // html形式に関する設定を列挙
+    /*
+     * html形式に関する設定を列挙
+     */
     "html.format.endWithNewline": true, // ファイル末尾に、空白行を入れるように設定
-    // markdown形式に関する設定を列挙
+    /*
+     * markdown形式に関する設定を列挙
+     */
     "[markdown]": {
         "files.trimTrailingWhitespace": false // ファイル保存時に、行末の空白をトリミング"しない"ように設定
-    }
+    },
+    /*
+     * python形式に関する設定を列挙
+     */
+    "python.pythonPath": "/Users/jalemy/.pyenv/versions/3.7.0/bin/python",
 }
