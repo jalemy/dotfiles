@@ -1,10 +1,14 @@
 codezombiech.gitignore
 donjayamanne.githistory
 eamodio.gitlens
+felixfbecker.php-intellisense
 GitHub.vscode-pull-request-github
 ICS.japanese-proofreading
 ionutvmi.path-autocomplete
+junstyle.php-cs-fixer
+mikestead.dotenv
 MS-CEINTL.vscode-language-pack-ja
 ms-python.python
+neilbrayfield.php-docblocker
 rogalmic.bash-debug
 vscode-icons-team.vscode-icons
