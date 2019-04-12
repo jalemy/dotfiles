@@ -65,4 +65,12 @@
      * python形式に関する設定を列挙
      */
     "python.pythonPath": "/Users/jalemy/.pyenv/versions/3.7.0/bin/python",
+    /*
+     * php-cs-fixerに関する設定を列挙
+     */
+    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar", // php-cs-fixerのpharファイルの保存場所を設定
+    "php-cs-fixer.lastDownload": 1554986710151,
+    "php-cs-fixer.rules": "@PSR2", // PHPのコーディング規約を設定
+    "php-cs-fixer.onsave": true, // ファイル保存時に整形するように設定
+    "php-cs-fixer.formatHtml": true, // PHPコード内のhtmlも整形するように設定
 }
