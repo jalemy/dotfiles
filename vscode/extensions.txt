@@ -10,5 +10,7 @@ mikestead.dotenv
 MS-CEINTL.vscode-language-pack-ja
 ms-python.python
 neilbrayfield.php-docblocker
+onecentlin.laravel-blade
+onecentlin.laravel5-snippets
 rogalmic.bash-debug
 vscode-icons-team.vscode-icons
