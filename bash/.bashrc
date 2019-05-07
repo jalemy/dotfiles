@@ -1,11 +1,30 @@
-export EDITOR=/Applications/MacVim.app/Contents/MacOS/Vim
+# .bashrc
 
-alias javac='javac -J-Dfile.encoding=UTF-8'
-alias java='java -Dfile.encoding=UTF-8'
-alias mvim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/mvim "$@"'
-alias vim='env LANG=ja_JP.UTF-8 /Applications/MacVim.app/Contents/MacOS/Vim "$@"'
+# プロンプトの設定
+function parse_git_branch {
+    git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ [\1]/'
+}
 
-eval "$(rbenv init -)"
-eval "$(hub alias -s)"
+function prompt {
+    # 色の変数宣言
+    local BLUE="\[\e[1;34m\]"
+    local RED="\[\e[1;31m\]"
+    local GREEN="\[\e[1;32m\]"
+    local WHITE="\[\e[00m\]"
+    local GRAY="\[\e[1;37m\]"
 
-source ~/dotfiles/.git-completion.bash
+    # ユーザー名@ホスト名
+    local BASE="\u@\h"
+
+    # プロンプトに表示する内容
+    PS1="${GREEN}${BASE}${WHITE}:${BLUE}\W${BLUE}\$(parse_git_branch)${BLUE}\$${WHITE} "
+}
+
+prompt
+
+# エイリアスの設定
+
+# lsカラー表示
+alias ls='ls -G'
+alias ll='ls -lG'
+alias la='ls -laG'
