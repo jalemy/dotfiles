@@ -25,6 +25,6 @@ prompt
 # エイリアスの設定
 
 # lsカラー表示
-alias ls='ls -G'
-alias ll='ls -lG'
-alias la='ls -laG'
+alias ls='ls -FG'
+alias ll='ls -lFG'
+alias la='ls -laFG'
