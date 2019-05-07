@@ -5,7 +5,7 @@ editorやterminalなど、開発環境周りの設定ファイルを置く。
 ## 設定方法
 
 ```sh
-$git clone
+$ git clone
 ```
 
 あとでかく
@@ -13,7 +13,7 @@ $git clone
 ## vscode
 
 ```sh
-$sh setting.sh
+$ sh setting.sh
 ```
 
 * setting.json
@@ -26,19 +26,19 @@ $sh setting.sh
 #### installされているextensionのexport
 
 ```sh
-$sh exportExtensions.sh
+$ sh exportExtensions.sh
 ```
 
 ### exportされたextensionの一覧をもとにinstall
 
 ```sh
-$sh installExtensions.sh
+$ sh installExtensions.sh
 ```
 
 ## bash
 
 ```sh
-$sh setting.sh
+$ sh setting.sh
 ```
 
 * .bashrc
