@@ -74,8 +74,10 @@
     "php-cs-fixer.onsave": true, // ファイル保存時に整形するように設定
     "php-cs-fixer.formatHtml": true, // PHPコード内のhtmlも整形するように設定
     /*
-     * prettierに関する設定を列挙
+     * markdownlintに関する設定を列挙
      */
-    "prettier.tabWidth": 4, // prettierでのタブサイズを4に変更
-    "prettier.singleQuote": false // ダブルクォートをシングルクォートに変換しないように
+    "markdownlint.config": {
+        "MD013": false, // 行の長さに関する警告を出さないように
+        "MD014": false, // コマンドの前の$記号に関する警告を出さないように
+    }
 }
