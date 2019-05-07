@@ -2,8 +2,10 @@ codezombiech.gitignore
 DavidAnson.vscode-markdownlint
 donjayamanne.githistory
 eamodio.gitlens
+esbenp.prettier-vscode
 felixfbecker.php-intellisense
 GitHub.vscode-pull-request-github
+hnw.vscode-auto-open-markdown-preview
 ICS.japanese-proofreading
 ionutvmi.path-autocomplete
 junstyle.php-cs-fixer

@@ -73,4 +73,9 @@
     "php-cs-fixer.rules": "@PSR2", // PHPのコーディング規約を設定
     "php-cs-fixer.onsave": true, // ファイル保存時に整形するように設定
     "php-cs-fixer.formatHtml": true, // PHPコード内のhtmlも整形するように設定
+    /*
+     * prettierに関する設定を列挙
+     */
+    "prettier.tabWidth": 4, // prettierでのタブサイズを4に変更
+    "prettier.singleQuote": false // ダブルクォートをシングルクォートに変換しないように
 }
