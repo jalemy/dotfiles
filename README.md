@@ -59,3 +59,13 @@ $ brew bundle
 ```
 
 でbrewfileをもとにインストール
+
+## git
+
+```sh
+$ sh setting.sh
+```
+
+* .gitconfig
+
+にシンボリックリンクが貼られる。

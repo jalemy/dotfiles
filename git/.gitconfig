@@ -1,0 +1,11 @@
+[user]
+    name = jalemy
+    email = jalemy.xps@gmail.com
+[color]
+    ui = auto
+[core]
+    editor = /usr/bin/vim
+[alias]
+    st = status
+    gr = log --graph --all --oneline --decorate --color --date=default
+    autocrlf = input
