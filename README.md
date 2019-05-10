@@ -29,7 +29,7 @@ $ sh setting.sh
 $ sh exportExtensions.sh
 ```
 
-### exportされたextensionの一覧をもとにinstall
+#### exportされたextensionの一覧をもとにinstall
 
 ```sh
 $ sh installExtensions.sh
@@ -45,3 +45,17 @@ $ sh setting.sh
 * .bash_profile
 
 の2つにシンボリックリンクが貼られる。
+
+## brew
+
+```sh
+$ brew bundle dump
+```
+
+でbrew / brew caskに入っているアプリケーション一覧をbrewfileに出力
+
+```sh
+$ brew bundle
+```
+
+でbrewfileをもとにインストール
