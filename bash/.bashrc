@@ -28,3 +28,6 @@ prompt
 alias ls='ls -FG'
 alias ll='ls -lFG'
 alias la='ls -laFG'
+
+# 環境変数の設定
+export PATH=$HOME/.nodebrew/current/bin:$PATH
