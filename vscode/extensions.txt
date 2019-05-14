@@ -3,7 +3,9 @@ DavidAnson.vscode-markdownlint
 donjayamanne.githistory
 eamodio.gitlens
 esbenp.prettier-vscode
+felixfbecker.php-debug
 felixfbecker.php-intellisense
+felixfbecker.php-pack
 GitHub.vscode-pull-request-github
 hnw.vscode-auto-open-markdown-preview
 ICS.japanese-proofreading
@@ -12,9 +14,12 @@ junstyle.php-cs-fixer
 mikestead.dotenv
 MS-CEINTL.vscode-language-pack-ja
 ms-python.python
+ms-vscode.csharp
 neilbrayfield.php-docblocker
 onecentlin.laravel-blade
 onecentlin.laravel5-snippets
+PeterJausovec.vscode-docker
 rogalmic.bash-debug
+VisualStudioExptTeam.vscodeintellicode
 vscode-icons-team.vscode-icons
 yzane.markdown-pdf
