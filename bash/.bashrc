@@ -31,3 +31,14 @@ alias la='ls -laFG'
 
 # 環境変数の設定
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+
+# serverless frameworkの設定
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[ -f /Users/jalemy/.nodebrew/node/v11.2.0/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.bash ] && . /Users/jalemy/.nodebrew/node/v11.2.0/lib/node_modules/serverless/node_modules/tabtab/.completions/serverless.bash
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[ -f /Users/jalemy/.nodebrew/node/v11.2.0/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.bash ] && . /Users/jalemy/.nodebrew/node/v11.2.0/lib/node_modules/serverless/node_modules/tabtab/.completions/sls.bash
+# tabtab source for slss package
+# uninstall by removing these lines or running `tabtab uninstall slss`
+[ -f /Users/jalemy/.nodebrew/node/v11.2.0/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.bash ] && . /Users/jalemy/.nodebrew/node/v11.2.0/lib/node_modules/serverless/node_modules/tabtab/.completions/slss.bash
