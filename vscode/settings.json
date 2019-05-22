@@ -32,6 +32,7 @@
     "editor.renderControlCharacters": true, // 制御文字が表示されるように設定
     "editor.smoothScrolling": true, // スクロールが滑らかになるように設定
     "editor.snippetSuggestions": "bottom", // コードスニペットを下に表示するように設定
+    "editor.suggestSelection": "recentlyUsedByPrefix", // サジェストを以前のプレフィクスをもとに選択する
     /*
      * VSCode "terminal"接頭辞の設定を列挙
      */
@@ -79,5 +80,12 @@
     "markdownlint.config": {
         "MD013": false, // 行の長さに関する警告を出さないように
         "MD014": false, // コマンドの前の$記号に関する警告を出さないように
-    }
+    },
+    /*
+     * powermodeに関する設定を列挙
+     */
+    "powermode.enabled": true, // powermodeをONに
+    "powermode.enableShake": false, // powermodeによる画面揺れをOFF
+    "powermode.presets": "fireworks", // 花火が打ち上がるように
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 }

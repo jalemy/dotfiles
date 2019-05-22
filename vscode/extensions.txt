@@ -8,8 +8,10 @@ felixfbecker.php-intellisense
 felixfbecker.php-pack
 GitHub.vscode-pull-request-github
 hnw.vscode-auto-open-markdown-preview
+hoovercj.vscode-power-mode
 ICS.japanese-proofreading
 ionutvmi.path-autocomplete
+joelday.docthis
 junstyle.php-cs-fixer
 mikestead.dotenv
 MS-CEINTL.vscode-language-pack-ja
