@@ -86,6 +86,6 @@
      */
     "powermode.enabled": true, // powermodeをONに
     "powermode.enableShake": false, // powermodeによる画面揺れをOFF
-    "powermode.presets": "fireworks", // 花火が打ち上がるように
+    "powermode.presets": "particles", // パーティクルが飛ぶように
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
 }
