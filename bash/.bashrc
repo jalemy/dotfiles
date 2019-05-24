@@ -1,5 +1,9 @@
 # .bashrc
 
+# terminalでgit補完が効くように設定
+source /usr/local/etc/bash_completion.d/git-prompt.sh
+source /usr/local/etc/bash_completion.d/git-completion.bash
+
 # プロンプトの設定
 function parse_git_branch {
     git branch --no-color 2> /dev/null | sed -e '/^[^*]/d' -e 's/* \(.*\)/ [\1]/'
