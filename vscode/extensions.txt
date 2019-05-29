@@ -1,4 +1,5 @@
 codezombiech.gitignore
+CoenraadS.bracket-pair-colorizer
 DavidAnson.vscode-markdownlint
 donjayamanne.githistory
 eamodio.gitlens
