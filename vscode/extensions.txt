@@ -1,6 +1,7 @@
 codezombiech.gitignore
 CoenraadS.bracket-pair-colorizer
 DavidAnson.vscode-markdownlint
+dbaeumer.vscode-eslint
 donjayamanne.githistory
 eamodio.gitlens
 esbenp.prettier-vscode
@@ -19,6 +20,7 @@ MS-CEINTL.vscode-language-pack-ja
 ms-python.python
 ms-vscode.csharp
 neilbrayfield.php-docblocker
+octref.vetur
 onecentlin.laravel-blade
 onecentlin.laravel5-snippets
 PeterJausovec.vscode-docker
