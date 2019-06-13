@@ -1,91 +1,95 @@
 {
-    /*
-     * MacBook Pro用に設定
-     */
-    /*
-     * VSCode "files"接頭辞の設定を列挙
-     */
-    "files.encoding": "utf8", // 文字コードをutf-8に設定
-    "files.autoGuessEncoding": true, // utf-8以外の文字コードを開いた場合、自動で追従してファイルを開くように設定
-    "files.autoSave": "afterDelay", // 一定時間操作がなかったら自動保存するように設定
-    "files.trimFinalNewlines": true, // ファイル保存時に、自動的に最終行以降をトリミングするように設定
-    "files.trimTrailingWhitespace": true, // ファイル保存時に、行末の空白をトリミングするように設定
-    "files.insertFinalNewline": true, // ファイル保存時に、最終行に空白行を入れるように設定
-    "files.hotExit": "onExitAndWindowClose", // エディタ終了、およびウインドウを閉じた際にファイル保存するように設定
-    /*
-     * VSCode "editor"接頭辞の設定を列挙
-     */
-    "editor.fontFamily": "Source Code Pro", // VSCodeで利用するフォントを設定
-    "editor.renderWhitespace": "boundary", // 空白文字を単語間は表示しない、それ以外は表示するように設定
-    "editor.formatOnSave": true, // ファイル保存時に、自動的に整形フォーマットするように設定
-    "editor.formatOnPaste": true, // ペースト時に、自動的に整形フォーマットするように設定
-    "editor.autoIndent": true, // ペーストや、行移動時に、自動的にインデントをつけるように設定
-    "editor.tabSize": 4, // タブサイズを4に設定
-    "editor.detectIndentation": true, // ファイル読み込み時に、タブ設定を自動的に判別してタブサイズやタブ文字の設定を行う
-    "editor.insertSpaces": true, // タブキーを押下した時に、空白文字を入れるように設定
-    "editor.cursorBlinking": "smooth", // カーソルのアニメーションを設定(smooth:スムーズに点滅する)
-    "editor.cursorStyle": "underline-thin", // カーソルの形状設定(underline-thin:文字の下に薄く下線が引かれる)
-    "editor.wordWrap": "on", // 行の折り返しを"行う"ように設定
-    "editor.minimap.showSlider": "always", // エディタ右部のミニマップスライダーを常に表示するように設定
-    "editor.fontLigatures": true, // 指定フォントで"合字"が利用できる場合、利用するように設定
-    "editor.dragAndDrop": false, // 選択部分をD&Dで移動できないように設定
-    "editor.renderControlCharacters": true, // 制御文字が表示されるように設定
-    "editor.smoothScrolling": true, // スクロールが滑らかになるように設定
-    "editor.snippetSuggestions": "bottom", // コードスニペットを下に表示するように設定
-    "editor.suggestSelection": "recentlyUsedByPrefix", // サジェストを以前のプレフィクスをもとに選択する
-    /*
-     * VSCode "terminal"接頭辞の設定を列挙
-     */
-    "terminal.integrated.fontFamily": "monospace", // terminalのfontをmonospaceに設定(monospace以外受け付けてくれなかったのでとりあえず)
-    /*
-     * VSCode "breadcrumbs"接頭辞の設定を列挙
-     */
-    "breadcrumbs.enabled": true, // 階層リンクの表示を行うように設定
-    "breadcrumbs.filePath": "on", // ファイルパスをフルで表示するように設定
-    "breadcrumbs.symbolPath": "on", // シンボルパスをフルで表示するように設定
-    /*
-     * VSCode "workbench"接頭辞の設定を列挙
-     */
-    "workbench.commandPalette.preserveInput": true, // Command Paletteを開いた際に、最後に実行した入力履歴を表示するように設定
-    /*
-     * VSCode "window"接頭辞の設定を列挙
-     */
-    "window.openFilesInNewWindow": "on", // ファイルを開く時に、新しくウインドウを開くように設定
-    "window.zoomLevel": 0, // デフォルトの画面ズームをLv.0に設定
-    /*
-     * html形式に関する設定を列挙
-     */
-    "html.format.endWithNewline": true, // ファイル末尾に、空白行を入れるように設定
-    /*
-     * markdown形式に関する設定を列挙
-     */
-    "[markdown]": {
-        "files.trimTrailingWhitespace": false // ファイル保存時に、行末の空白をトリミング"しない"ように設定
-    },
-    /*
-     * python形式に関する設定を列挙
-     */
-    "python.pythonPath": "/Users/jalemy/.pyenv/versions/3.7.0/bin/python",
-    /*
-     * php-cs-fixerに関する設定を列挙
-     */
-    "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar", // php-cs-fixerのpharファイルの保存場所を設定
-    "php-cs-fixer.lastDownload": 1556889916340,
-    "php-cs-fixer.rules": "@PSR2", // PHPのコーディング規約を設定
-    "php-cs-fixer.onsave": true, // ファイル保存時に整形するように設定
-    "php-cs-fixer.formatHtml": true, // PHPコード内のhtmlも整形するように設定
-    /*
-     * markdownlintに関する設定を列挙
-     */
-    "markdownlint.config": {
-        "MD013": false, // 行の長さに関する警告を出さないように
-        "MD014": false, // コマンドの前の$記号に関する警告を出さないように
-    },
-    /*
-     * powermodeに関する設定を列挙
-     */
-    "powermode.enabled": true, // powermodeをONに
-    "powermode.enableShake": false, // powermodeによる画面揺れをOFF
-    "powermode.presets": "particles", // パーティクルが飛ぶように
-    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  /*
+   * MacBook Pro用に設定
+   */
+  /*
+   * VSCode "files"接頭辞の設定を列挙
+   */
+  "files.encoding": "utf8", // 文字コードをutf-8に設定
+  "files.autoGuessEncoding": true, // utf-8以外の文字コードを開いた場合、自動で追従してファイルを開くように設定
+  "files.autoSave": "afterDelay", // 一定時間操作がなかったら自動保存するように設定
+  "files.trimFinalNewlines": true, // ファイル保存時に、自動的に最終行以降をトリミングするように設定
+  "files.trimTrailingWhitespace": true, // ファイル保存時に、行末の空白をトリミングするように設定
+  "files.insertFinalNewline": true, // ファイル保存時に、最終行に空白行を入れるように設定
+  "files.hotExit": "onExitAndWindowClose", // エディタ終了、およびウインドウを閉じた際にファイル保存するように設定
+  /*
+   * VSCode "editor"接頭辞の設定を列挙
+   */
+  "editor.fontFamily": "Source Code Pro", // VSCodeで利用するフォントを設定
+  "editor.renderWhitespace": "boundary", // 空白文字を単語間は表示しない、それ以外は表示するように設定
+  "editor.formatOnSave": true, // ファイル保存時に、自動的に整形フォーマットするように設定
+  "editor.formatOnPaste": true, // ペースト時に、自動的に整形フォーマットするように設定
+  "editor.autoIndent": true, // ペーストや、行移動時に、自動的にインデントをつけるように設定
+  "editor.tabSize": 4, // タブサイズを4に設定
+  "editor.detectIndentation": true, // ファイル読み込み時に、タブ設定を自動的に判別してタブサイズやタブ文字の設定を行う
+  "editor.insertSpaces": true, // タブキーを押下した時に、空白文字を入れるように設定
+  "editor.cursorBlinking": "smooth", // カーソルのアニメーションを設定(smooth:スムーズに点滅する)
+  "editor.cursorStyle": "underline-thin", // カーソルの形状設定(underline-thin:文字の下に薄く下線が引かれる)
+  "editor.wordWrap": "on", // 行の折り返しを"行う"ように設定
+  "editor.minimap.showSlider": "always", // エディタ右部のミニマップスライダーを常に表示するように設定
+  "editor.fontLigatures": true, // 指定フォントで"合字"が利用できる場合、利用するように設定
+  "editor.dragAndDrop": false, // 選択部分をD&Dで移動できないように設定
+  "editor.renderControlCharacters": true, // 制御文字が表示されるように設定
+  "editor.smoothScrolling": true, // スクロールが滑らかになるように設定
+  "editor.snippetSuggestions": "bottom", // コードスニペットを下に表示するように設定
+  "editor.suggestSelection": "recentlyUsedByPrefix", // サジェストを以前のプレフィクスをもとに選択する
+  /*
+   * VSCode "terminal"接頭辞の設定を列挙
+   */
+  "terminal.integrated.fontFamily": "monospace", // terminalのfontをmonospaceに設定(monospace以外受け付けてくれなかったのでとりあえず)
+  /*
+   * VSCode "breadcrumbs"接頭辞の設定を列挙
+   */
+  "breadcrumbs.enabled": true, // 階層リンクの表示を行うように設定
+  "breadcrumbs.filePath": "on", // ファイルパスをフルで表示するように設定
+  "breadcrumbs.symbolPath": "on", // シンボルパスをフルで表示するように設定
+  /*
+   * VSCode "workbench"接頭辞の設定を列挙
+   */
+  "workbench.commandPalette.preserveInput": true, // Command Paletteを開いた際に、最後に実行した入力履歴を表示するように設定
+  /*
+   * VSCode "window"接頭辞の設定を列挙
+   */
+  "window.openFilesInNewWindow": "on", // ファイルを開く時に、新しくウインドウを開くように設定
+  "window.zoomLevel": 0, // デフォルトの画面ズームをLv.0に設定
+  /*
+   * html形式に関する設定を列挙
+   */
+  "html.format.endWithNewline": true, // ファイル末尾に、空白行を入れるように設定
+  /*
+   * markdown形式に関する設定を列挙
+   */
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false // ファイル保存時に、行末の空白をトリミング"しない"ように設定
+  },
+  /*
+   * python形式に関する設定を列挙
+   */
+  "python.pythonPath": "/Users/jalemy/.pyenv/versions/3.7.0/bin/python",
+  /*
+   * php-cs-fixerに関する設定を列挙
+   */
+  "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar", // php-cs-fixerのpharファイルの保存場所を設定
+  "php-cs-fixer.lastDownload": 1559630751388,
+  "php-cs-fixer.rules": "@PSR2", // PHPのコーディング規約を設定
+  "php-cs-fixer.onsave": true, // ファイル保存時に整形するように設定
+  "php-cs-fixer.formatHtml": true, // PHPコード内のhtmlも整形するように設定
+  /*
+   * markdownlintに関する設定を列挙
+   */
+  "markdownlint.config": {
+    "MD013": false, // 行の長さに関する警告を出さないように
+    "MD014": false // コマンドの前の$記号に関する警告を出さないように
+  },
+  /*
+   * powermodeに関する設定を列挙
+   */
+  "powermode.enabled": true, // powermodeをONに
+  "powermode.enableShake": false, // powermodeによる画面揺れをOFF
+  "powermode.presets": "particles", // パーティクルが飛ぶように
+  /*
+   * laravel-blade-snippetに関する設定を列挙
+   */
+  "blade.format.enable": true, // blade.phpファイルも整形されるように
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue"
 }
