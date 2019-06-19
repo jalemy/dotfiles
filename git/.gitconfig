@@ -5,6 +5,7 @@
     ui = auto
 [core]
     editor = /usr/bin/vim
+    excludesFile = ~/.gitignore
 [alias]
     st = status
     gr = log --graph --all --oneline --decorate --color --date=default
