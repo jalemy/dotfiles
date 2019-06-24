@@ -13,9 +13,12 @@ hnw.vscode-auto-open-markdown-preview
 hoovercj.vscode-power-mode
 ICS.japanese-proofreading
 ionutvmi.path-autocomplete
+jchannon.csharpextensions
 joelday.docthis
 junstyle.php-cs-fixer
+Leopotam.csharpfixformat
 mikestead.dotenv
+ms-azuretools.vscode-docker
 MS-CEINTL.vscode-language-pack-ja
 ms-python.python
 ms-vscode.csharp
@@ -23,8 +26,8 @@ neilbrayfield.php-docblocker
 octref.vetur
 onecentlin.laravel-blade
 onecentlin.laravel5-snippets
-PeterJausovec.vscode-docker
 rogalmic.bash-debug
+Unity.unity-debug
 VisualStudioExptTeam.vscodeintellicode
 vscode-icons-team.vscode-icons
 yzane.markdown-pdf
