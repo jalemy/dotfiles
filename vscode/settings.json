@@ -92,4 +92,10 @@
    */
   "blade.format.enable": true, // blade.phpファイルも整形されるように
   "prettier.singleQuote": true,
+  /*
+   * code-spell-checkerに関する設定を列挙
+   */
+  "cSpell.ignoreRegExpList": [
+    "[０-９Ａ-Ｚａ-ｚぁ-んァ-ヶ亜-熙纊-黑]+"
+  ],
 }

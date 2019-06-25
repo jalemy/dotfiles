@@ -28,6 +28,7 @@ onecentlin.laravel-blade
 onecentlin.laravel5-snippets
 rogalmic.bash-debug
 Unity.unity-debug
+streetsidesoftware.code-spell-checker
 VisualStudioExptTeam.vscodeintellicode
 vscode-icons-team.vscode-icons
 yzane.markdown-pdf
