@@ -8,5 +8,6 @@
     excludesFile = ~/.gitignore
 [alias]
     st = status
+    br = branch
     gr = log --graph --all --oneline --decorate --color --date=default
     autocrlf = input
