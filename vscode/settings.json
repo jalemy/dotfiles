@@ -47,6 +47,7 @@
    * VSCode "workbench"接頭辞の設定を列挙
    */
   "workbench.commandPalette.preserveInput": true, // Command Paletteを開いた際に、最後に実行した入力履歴を表示するように設定
+  "workbench.editor.enablePreview": false, // コマンドパレットからファイルを開いたとき、別タブで開くように設定
   /*
    * VSCode "window"接頭辞の設定を列挙
    */
@@ -70,7 +71,7 @@
    * php-cs-fixerに関する設定を列挙
    */
   "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar", // php-cs-fixerのpharファイルの保存場所を設定
-  "php-cs-fixer.lastDownload": 1561384836588,
+  "php-cs-fixer.lastDownload": 1562569769696,
   "php-cs-fixer.rules": "@PSR2", // PHPのコーディング規約を設定
   "php-cs-fixer.onsave": true, // ファイル保存時に整形するように設定
   "php-cs-fixer.formatHtml": true, // PHPコード内のhtmlも整形するように設定
@@ -98,4 +99,5 @@
   "cSpell.ignoreRegExpList": [
     "[０-９Ａ-Ｚａ-ｚぁ-んァ-ヶ亜-熙纊-黑]+"
   ],
+  "diffEditor.renderSideBySide": false,
 }
