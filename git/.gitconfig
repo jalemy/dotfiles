@@ -6,8 +6,10 @@
 [core]
     editor = /usr/bin/vim
     excludesFile = ~/.gitignore
+    autocrlf = input
 [alias]
     st = status
     br = branch
     gr = log --graph --all --oneline --decorate --color --date=default
-    autocrlf = input
+    delete-merged-branch = "!f () { branch --merged | grep -v '\\*|develop|master' | xargs git branch -d; }"
+    dmb = "!f () { branch --merged | grep -v '\\*|develop|master' | xargs git branch -d; }"
