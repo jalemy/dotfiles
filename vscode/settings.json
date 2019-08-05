@@ -92,6 +92,16 @@
    * laravel-blade-snippetに関する設定を列挙
    */
   "blade.format.enable": true, // blade.phpファイルも整形されるように
+  /*
+   * veturに関する設定を列挙
+   */
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "singleQuote": true,
+      "tabWidth": 4,
+      "semi": false,
+    }
+  },
   "prettier.singleQuote": true,
   /*
    * code-spell-checkerに関する設定を列挙
