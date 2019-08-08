@@ -15,7 +15,7 @@
   /*
    * VSCode "editor"接頭辞の設定を列挙
    */
-  "editor.fontFamily": "Source Code Pro", // VSCodeで利用するフォントを設定
+  "editor.fontFamily": "Fira Code, Source Code Pro, monospace", // VSCodeで利用するフォントを設定
   "editor.renderWhitespace": "boundary", // 空白文字を単語間は表示しない、それ以外は表示するように設定
   "editor.formatOnSave": true, // ファイル保存時に、自動的に整形フォーマットするように設定
   "editor.formatOnPaste": true, // ペースト時に、自動的に整形フォーマットするように設定
