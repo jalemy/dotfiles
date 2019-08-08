@@ -25,6 +25,7 @@ ms-python.python
 ms-vscode.csharp
 neilbrayfield.php-docblocker
 octref.vetur
+oderwat.indent-rainbow
 onecentlin.laravel-blade
 onecentlin.laravel5-snippets
 rogalmic.bash-debug
