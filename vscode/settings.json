@@ -71,7 +71,7 @@
    * php-cs-fixerに関する設定を列挙
    */
   "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar", // php-cs-fixerのpharファイルの保存場所を設定
-  "php-cs-fixer.lastDownload": 1563779099161,
+  "php-cs-fixer.lastDownload": 1565244940005,
   "php-cs-fixer.rules": "@PSR2", // PHPのコーディング規約を設定
   "php-cs-fixer.onsave": true, // ファイル保存時に整形するように設定
   "php-cs-fixer.formatHtml": true, // PHPコード内のhtmlも整形するように設定
@@ -109,5 +109,9 @@
   "cSpell.ignoreRegExpList": [
     "[０-９Ａ-Ｚａ-ｚぁ-んァ-ヶ亜-熙纊-黑]+"
   ],
+  /*
+   * テキスト校正くんに関わる設定を列挙
+   */
+  "japanese-proofreading.textlint.丸かっこ（）": false, // ()が半角でもエラー出ないように
   "diffEditor.renderSideBySide": false,
 }
