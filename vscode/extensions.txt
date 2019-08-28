@@ -10,6 +10,7 @@ felixfbecker.php-debug
 felixfbecker.php-intellisense
 felixfbecker.php-pack
 GitHub.vscode-pull-request-github
+GrapeCity.gc-excelviewer
 hnw.vscode-auto-open-markdown-preview
 hoovercj.vscode-power-mode
 ICS.japanese-proofreading
@@ -18,6 +19,7 @@ jchannon.csharpextensions
 joelday.docthis
 junstyle.php-cs-fixer
 Leopotam.csharpfixformat
+mechatroner.rainbow-csv
 mikestead.dotenv
 ms-azuretools.vscode-docker
 MS-CEINTL.vscode-language-pack-ja
