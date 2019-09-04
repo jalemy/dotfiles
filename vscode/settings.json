@@ -122,6 +122,8 @@
       "pattern": "~/Documents/core-report/storage/logs/laravel.log"
     }
   ],
+  "logViewer.chunkSizeKb": 256,
   "diffEditor.renderSideBySide": false,
-  "editor.formatOnSaveTimeout": 1250,
+  "editor.formatOnSaveTimeout": 5000,
+  "diffEditor.ignoreTrimWhitespace": false,
 }
