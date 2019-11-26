@@ -28,7 +28,10 @@ prompt
 
 # エイリアスの設定
 
-# lsカラー表示
+## sedは使わないでgsed使う
+alias sed='gsed'
+
+## lsカラー表示
 alias ls='ls -FG'
 alias ll='ls -lFG'
 alias la='ls -laFG'

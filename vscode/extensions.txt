@@ -1,9 +1,11 @@
+abusaidm.html-snippets
 berublan.vscode-log-viewer
 codezombiech.gitignore
 CoenraadS.bracket-pair-colorizer
 DavidAnson.vscode-markdownlint
 dbaeumer.vscode-eslint
 donjayamanne.githistory
+dzhavat.css-flexbox-cheatsheet
 eamodio.gitlens
 EditorConfig.EditorConfig
 esbenp.prettier-vscode
