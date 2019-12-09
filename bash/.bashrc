@@ -38,6 +38,7 @@ alias la='ls -laFG'
 
 # 環境変数の設定
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+export PATH=$HOME/flutter/bin/:$PATH
 
 # serverless frameworkの設定
 # tabtab source for serverless package
