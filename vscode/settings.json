@@ -17,7 +17,6 @@
    */
   "editor.fontFamily": "Fira Code, Source Code Pro, monospace", // VSCodeで利用するフォントを設定
   "editor.renderWhitespace": "boundary", // 空白文字を単語間は表示しない、それ以外は表示するように設定
-  "editor.formatOnSave": true, // ファイル保存時に、自動的に整形フォーマットするように設定
   "editor.formatOnPaste": true, // ペースト時に、自動的に整形フォーマットするように設定
   "editor.autoIndent": true, // ペーストや、行移動時に、自動的にインデントをつけるように設定
   "editor.tabSize": 4, // タブサイズを4に設定
@@ -33,6 +32,9 @@
   "editor.smoothScrolling": true, // スクロールが滑らかになるように設定
   "editor.snippetSuggestions": "bottom", // コードスニペットを下に表示するように設定
   "editor.suggestSelection": "recentlyUsedByPrefix", // prefixに応じて、以前使用した項目が選択されるように設定
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true // eslintで指摘された内容を保存時に修正するように設定
+  },
   /*
    * VSCode "breadcrumbs"接頭辞の設定を列挙
    */
