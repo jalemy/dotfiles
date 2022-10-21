@@ -17,7 +17,7 @@ export EDITOR=vim
 # Ctrl+Dでログアウトしないようにする
 setopt IGNOREEOF
 
-# コマンドを謝ったときに聞き直すようにする
+# コマンドを誤ったときに聞き直すようにする
 setopt correct
 
 # プロンプトが表示されるたびにプロンプト文字列を評価、置換する
@@ -41,13 +41,6 @@ autoload -Uz compinit; compinit -C
 zstyle ':completion:*:default' menu select=2
 ## 補完候補に色を付ける。
 zstyle ':completion:*' list-colors "${LS_COLORS}"
-
-# alias設定
-
-## ls
-alias ls='ls -FG'
-alias ll='ls -lFG'
-alias la='ls -laFG'
 
 # 環境変数設定
 export PATH="/usr/local/bin/git:$PATH"
@@ -76,18 +69,6 @@ function lprompt {
 }
 PROMPT=`lprompt`
 
-# 右側プロンプト表示の設定
-function rprompt {
-  orange='208m%}'
-  text_color='%{\e[38;5;'
-  reset='%{\e[0m%}'
-  
-  branch_name=`git rev-parse --abbrev-ref HEAD 2> /dev/null`
-  
-  echo "${text_color}${orange}[${branch_name}]${reset}"
-}
-RPROMPT=`rprompt`
-
 # コマンドの実行ごとに改行
 function precmd() {
     if [ -z "$NEW_LINE_BEFORE_PROMPT" ]; then
@@ -96,3 +77,17 @@ function precmd() {
         echo ""
     fi
 }
+
+# path
+typeset -U path PATH
+path=(
+  /opt/homebrew/bin(N-/)
+  /opt/homebrew/sbin(N-/)
+  /usr/bin
+  /usr/sbin
+  /bin
+  /sbin
+  /usr/local/bin(N-/)
+  /usr/local/sbin(N-/)
+  /Library/Apple/usr/bin
+)
